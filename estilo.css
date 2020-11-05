@@ -218,3 +218,10 @@
     .aplicativos {
         height: auto;
     }
+    
+    img {
+        width: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
