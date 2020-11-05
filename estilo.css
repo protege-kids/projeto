@@ -1,0 +1,220 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+    }
+    
+    body {
+        width: 100%;
+        height: 100vh;
+        font-weight: 550;
+        background-color: #fac279;
+    }
+    
+    html {
+        width: 100%;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 0em 2em;
+        letter-spacing: -1.8px;
+    }
+    
+    .container>div {
+        width: inherit;
+    }
+    
+    #padding-lading {
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .cabecalho {
+        width: 100%;
+        position: fixed;
+        display: inline-block;
+        padding: 0.5em 2em;
+        background: rgba(0, 0, 0, 1);
+    }
+    
+    #logo {
+        font-size: 1.9em;
+        color: #F28C26;
+        font-family: 'Sansita Swashed', cursive;
+        text-align: left;
+    }
+    
+    .menu-mobile ul {
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    
+    .abas li {
+        line-height: 70px;
+        list-style: none;
+    }
+    
+    .abas li a {
+        padding: 4%;
+        color: #fc8f00;
+        font: 2.4em/2em 'Sansita Swashed', cursive;
+    }
+    
+    .abas li a:hover {
+        transition: 1.5s;
+        border-radius: 60px;
+        border: 3px solid #fc8f00;
+    }
+    /* <---------------------- MENU MOBILE ---------------------->*/
+    
+    .btn-menu {
+        height: 55px;
+        width: 55px;
+        margin-top: 2%;
+        float: right;
+        text-align: center;
+        border-radius: 55px;
+        background: transparent;
+        color: #F28C26;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .btn-menu:hover {
+        transition: 1.5s;
+        background-color: #F28C26;
+        color: black;
+    }
+    
+    .btn-close {
+        float: right;
+        font-size: 2.9em;
+        color: #F28C26;
+        cursor: pointer;
+        margin: 6% 8%
+    }
+    
+    .menu-mobile {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.9);
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    /*----------------------------------------------- Introdução ----------------------------------------------- */
+    
+    .introducao {
+        align-items: left;
+        text-align: justify;
+        background-image: url(./imagens/logo4.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        font-family: 'Work Sans', italic;
+        color: black;
+    }
+    
+    .introducao h1 {
+        font-size: 2em;
+        width: 70%;
+        line-height: 1;
+    }
+    
+    .introducao h3 {
+        font-size: 1.5em;
+        padding-bottom: 1em;
+        width: 93%;
+    }
+    
+    .btn-saiba-mais {
+        padding: 5%;
+        text-align: center;
+        border-radius: 50px;
+        border: 2px solid #fc8f00;
+        background: transparent;
+        color: #fc8f00;
+        cursor: pointer;
+        font: 500 1.5em 'Work Sans', italic;
+    }
+    
+    .btn-saiba-mais:hover {
+        transition: 1.5s;
+        background-color: #F28C26;
+        color: black;
+    }
+    /*----------------------------------------------- Fontes Sections ----------------------------------------------- */
+    
+    .fo-titulo h1 {
+        /*margin: 10% 5% 0% 5%;*/
+        text-align: center;
+        font: 700 1.8em 'Work Sans', italic;
+        padding-bottom: 0.5em;
+        color: black;
+    }
+    
+    .fo-texto p,
+    span,
+    li {
+        text-align: justify;
+        font: 450 1em/1.2em 'Work Sans', italic;
+        line-height: 1em;
+        padding-bottom: 0.3em;
+        color: black;
+    }
+    
+    .fo-links a {
+        font: 800 1em 'Work Sans', italic;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .fo-subtitulo h3,
+    h2 {
+        font: 700 1.2em 'Work Sans', italic;
+        padding-bottom: 0.5em;
+        color: #ff6600;
+    }
+    /* ----------------------------------------------- Informações ----------------------------------------------- */
+    
+    .informacoes {
+        height: auto;
+        text-align: justify;
+        text-decoration: none;
+    }
+    
+    .canais-denuncia {
+        display: inline;
+        font: 450 0.8em 'Work Sans', italic;
+        color: #ff6600;
+    }
+    
+    .canais-denuncia a,
+    span {
+        color: black;
+    }
+    /* ----------------------------------------------- Informações ----------------------------------------------- */
+    
+    .dicas {
+        height: auto;
+    }
+    
+    .aplicativos {
+        height: auto;
+    }
