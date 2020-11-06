@@ -153,13 +153,26 @@
         padding-bottom: 0.5em;
         color: #ff6600;
     }
+    /*----------------------------------------------- Imagens ----------------------------------------------- */
     
     .imagem {
         display: block;
         margin-left: auto;
         margin-right: auto;
         max-width: 100%;
-        width: 100%;
+        /*width: 100%;*/
+    }
+    
+    .img-livros {
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .img-fisico {
+        letter-spacing: 1em;
+        display: block;
+        max-width: 100%;
+        text-align: center;
     }
     /*----------------------------------------------- Introdução ----------------------------------------------- */
     
