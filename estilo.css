@@ -26,15 +26,15 @@
         width: inherit;
     }
     
-    #padding-lading {
+    .container {
+        display: flex;
         width: 100%;
         min-height: 100vh;
     }
     
-    .container {
+    #page {
         width: 100%;
-        height: 100vh;
-        display: flex;
+        min-height: 100vh;
         align-items: center;
         padding: 0em 2em;
         letter-spacing: -1.8px;
@@ -90,6 +90,7 @@
         top: 0;
         left: 0;
         display: none;
+        padding: 4%;
     }
     
     .btn-menu {
@@ -153,9 +154,10 @@
     /*----------------------------------------------- Introdução ----------------------------------------------- */
     
     .introducao {
+        height: 100vh;
         border-bottom: solid 3px blue;
-        align-items: left;
-        text-align: justify;
+        align-items: center;
+        text-align: left;
         /* background-image: url(./imagens/logo4.jpeg);*/
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -193,11 +195,18 @@
     }
     /* ----------------------------------------------- Informações ----------------------------------------------- */
     
+    .imagem {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+    
     .informacoes {
         border-bottom: solid 3px blue;
         padding-top: 6em;
         height: auto;
-        text-align: justify;
         text-decoration: none;
     }
     
@@ -214,6 +223,7 @@
     /* ----------------------------------------------- Informações ----------------------------------------------- */
     
     .quem-somos {
+        /*text-align: center;*/
         border-bottom: solid 3px blue;
     }
     
