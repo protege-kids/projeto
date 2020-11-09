@@ -155,7 +155,16 @@
     }
     /*----------------------------------------------- Imagens ----------------------------------------------- */
     
-    .imagem {
+    .container-img {
+        text-align: center;
+    }
+    
+    .img-fisico {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .img-quem-somos {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -163,25 +172,18 @@
         /*width: 100%;*/
     }
     
-    .img-livros {
+    .img-livros,
+    .img-toque-cultura {
         text-align: left;
         max-width: 100%;
-    }
-    
-    .img-fisico {
-        letter-spacing: 1em;
-        display: block;
-        max-width: 100%;
-        text-align: center;
     }
     /*----------------------------------------------- Introdução ----------------------------------------------- */
     
     .introducao {
-        height: 100vh;
-        border-bottom: solid 3px blue;
+        padding: 0em 2em;
         align-items: center;
         text-align: left;
-        /* background-image: url(./imagens/logo4.jpeg);*/
+        /*background-image: url(./imagens/logo2.jpeg);*/
         background-size: 100% 100%;
         background-repeat: no-repeat;
         font-family: 'Work Sans', italic;
@@ -219,7 +221,6 @@
     /* ----------------------------------------------- Informações ----------------------------------------------- */
     
     .informacoes {
-        border-bottom: solid 3px blue;
         padding-top: 6em;
         height: auto;
         text-decoration: none;
@@ -240,17 +241,14 @@
     .quem-somos {
         padding-top: 6em;
         /*text-align: center;*/
-        border-bottom: solid 3px blue;
     }
     
     .dicas {
-        border-bottom: solid 3px blue;
         padding-top: 6em;
         height: auto;
     }
     
     .aplicativos {
-        border-bottom: solid 3px blue;
         padding-top: 6em;
         height: auto;
     }
