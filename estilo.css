@@ -48,26 +48,34 @@
     .cabecalho {
         width: 100%;
         position: fixed;
-        display: inline-block;
+        display: flex;
         padding: 0.5em 2em;
         background: rgba(0, 0, 0, 1);
+        Justify-content: space-between;
     }
     
     #logo {
-        font-size: 1.9em;
+        font: 1.9em 'Sansita Swashed', cursive;
         color: #F28C26;
-        font-family: 'Sansita Swashed', cursive;
         text-align: left;
     }
+    /* <---------------------- MENU MOBILE ---------------------->*/
     
-    .menu-mobile li {
+    .menu-mobile {
         width: 100%;
-        text-align: center;
-        float: left;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.9);
+        top: 0;
+        left: 0;
+        display: none;
+        padding: 1em;
     }
     
     .abas li {
-        line-height: 70px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
         list-style: none;
     }
     
@@ -82,25 +90,11 @@
         border-radius: 60px;
         border: 3px solid #fc8f00;
     }
-    /* <---------------------- MENU MOBILE ---------------------->*/
-    
-    .menu-mobile {
-        width: 100%;
-        height: 100vh;
-        position: fixed;
-        background-color: rgba(0, 0, 0, 0.9);
-        top: 0;
-        left: 0;
-        display: none;
-        padding: 4%;
-    }
-    
-    i {
-        padding-top: 15px;
-    }
     
     .btn-menu {
-        float: right;
+        margin-top: 10px;
+        height: 55px;
+        width: 55px;
         border-radius: 55px;
         background: transparent;
         color: #F28C26;
