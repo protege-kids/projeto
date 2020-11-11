@@ -1,6 +1,7 @@
 @media screen and (max-width: 1600px) {
     .imagem {
         width: 800px;
+        height: 400px;
     }
     .img-livros {
         width: 350px;
@@ -15,6 +16,7 @@
     }
     iframe {
         width: 500px;
+        height: 300px
     }
     .introducao h1,
     h3 {
