@@ -100,8 +100,11 @@
         padding: 10px;
         width: 100%;
     }
-    iframe {
+    .img-toque-cultura {
         width: 100%;
+    }
+    iframe {
+        width: 110%;
     }
     .introducao h1,
     h3 {
