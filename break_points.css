@@ -96,8 +96,11 @@
     .img-quem-somos {
         width: 530px;
     }
+    .img-toque-cultura {
+        width: 100%;
+    }
     iframe {
-        width: 400px;
+        width: 100%;
     }
     .img-fisico {
         padding: 10px;
