@@ -18,7 +18,8 @@
     }
     
     iframe {
-        width: 100%;
+        width: 550px;
+        height: 300px
     }
     
     .container>div {
@@ -148,7 +149,7 @@
     
     .img-fisico {
         padding: 10px;
-        width: 100%;
+        width: 33%;
     }
     
     .img-quem-somos {
