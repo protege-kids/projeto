@@ -24,7 +24,7 @@
         <button class="btn-menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
         <a class="logo" href="index.html"> Protege<br>Kids</a>
 
-        <nav>
+        <nav id="menu">
             <ul>
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#quem-somos">Quem somos</a></li>
@@ -269,6 +269,15 @@
 
                 });
             });
+
+            $(document).ready(function() {
+                $('nav ul li').click(function() {
+                    $('nav').removeClass('active');
+
+                });
+            });
+
+
 
             //Efeito scroll
             $('nav a').click(function(e) {
