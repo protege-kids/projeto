@@ -88,9 +88,11 @@
     .introducao h1,
     h3 {
         width: 72%;
+        color: white;
     }
     .introducao h3 {
         width: 80%;
+        color: white;
     }
 }
 
