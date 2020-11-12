@@ -40,10 +40,6 @@
         letter-spacing: -1.8px;
     }
     
-    a {
-        text-decoration: none;
-    }
-    
     ul {
         list-style: none;
     }
@@ -125,21 +121,22 @@
     span,
     li {
         text-align: justify;
-        font: 450 1em/1.2em 'Work Sans', italic;
+        font: 450 1.2em/1.2em 'Work Sans', italic;
         line-height: 1em;
         padding-bottom: 0.3em;
-        color: black;
-    }
-    
-    .fo-links a {
-        font: 800 1em 'Work Sans', italic;
         color: black;
         text-decoration: none;
     }
     
+    a {
+        text-decoration: none;
+        font: 800 1em 'Work Sans', italic;
+        color: black;
+    }
+    
     .fo-subtitulo h3,
     h2 {
-        font: 700 1.2em 'Work Sans', italic;
+        font: 700 1.4em 'Work Sans', italic;
         padding-bottom: 0.5em;
         color: #ff6600;
     }
@@ -196,20 +193,11 @@
         padding: 0.5em;
         text-align: center;
         border-radius: 50px;
-        border: 2px solid #fc8f00;
+        border: 3px solid #fc8f00;
         background: transparent;
-        color: #fc8f00;
         cursor: pointer;
         font: 500 1.5em 'Work Sans', italic;
         text-decoration: none;
-    }
-    
-    .btn-saida-mais:visited {
-        color: #F28C26;
-    }
-    
-    .btn-saida-mais:active {
-        color: #F28C26;
     }
     
     .btn-saiba-mais:hover {

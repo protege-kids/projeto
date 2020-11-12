@@ -24,7 +24,7 @@
         <button class="btn-menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
         <a class="logo" href="index.html"> Protege<br>Kids</a>
 
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#quem-somos">Quem somos</a></li>
@@ -193,7 +193,7 @@
                     <img class="img-livros" src="./imagens/nao_toca.jpeg">
                     <p>Conte pra alguém</p>
                     <img class="img-livros" src="./imagens/conte.jpg">
-                    <h3>Sites educativos:<a href="https://defenda-se.com/" target="_blank">Defenda-se.com</a></h3>
+                    <h3>Sites educativos: <a href="https://defenda-se.com/" target="_blank">Defenda-se.com</a></h3>
                     <h3>Programas educativos: <span>Que corpo é esse? (Canal futura)</span> </h3>
                     <img class="img-toque-cultura" src="./imagens/futura.jpg" width=auto>
                 </div>
@@ -255,9 +255,9 @@
                 <span>Disponível: Android e iOs</span>
 
                 <h1>Sites de jogos</h1>
-                <p>Escola Games: <a href="http://www.escolagames.com.br/jogos/?q=matematica" target="_blank">Acesse clicando aqui</a></p>
-                <p>Smart Kids: <a href="https://www.smartkids.com.br/jogos-educativos" target="_blank">Acesse clicando aqui</a></p>
-                <p>Poki: <a href="https://kids.poki.com/" target="_blank">Acesse clicando aqui</a></p>
+                <h3>Escola Games: <a href="http://www.escolagames.com.br/jogos/?q=matematica" target="_blank">Acesse clicando aqui</a></h3>
+                <h3>Smart Kids: <a href="https://www.smartkids.com.br/jogos-educativos" target="_blank">Acesse clicando aqui</a></h3>
+                <h3>Poki: <a href="https://kids.poki.com/" target="_blank">Acesse clicando aqui</a></h3>
             </div>
         </section>
 
@@ -265,12 +265,10 @@
             //Abre menu
             $(document).ready(function() {
                 $('.btn-menu').click(function() {
-                    $('nav').toggleClass('active')
+                    $('nav').toggleClass('.menu')
 
                 });
             });
-
-
 
             //Efeito scroll
             $('nav a').click(function(e) {
